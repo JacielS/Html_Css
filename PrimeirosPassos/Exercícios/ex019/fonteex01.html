@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Love Larry';
+            src: url('love\ larry\ ttf.ttf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+           
+        }
+        
+        @font-face {
+            font-family: 'heart';
+            src: url('Heart^Freaking^Tastic.otf') format('opentype'), url('Heart^Freaking^Tastic.ttf') format('truetype');
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'Love Larry', Times, serif;
+            font-size: normal;
+            font-weight: normal;
+        }
+        h2{
+            font-family: 'heart', Times, serif;
+            font-size: normal;
+            font-weight: normal;
+        }
+        p{
+            font-family: 'heart', Times, serif;
+            font-size: normal;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Capítulo 1</h1>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio ipsam iste vitae eaque beatae dolorem ipsa ullam quas corrupti explicabo, repellat odio aliquam labore, magni doloremque earum repudiandae eius expedita?</p>
+</body>
+</html>

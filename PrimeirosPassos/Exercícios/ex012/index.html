@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Imagens/favicon123.ico" type="image/x-icon">
+    <title>Videos Com Html</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado em meu próprio servidor.</p>
+    <video width="500px" poster="Imagens/meuvideo-Moment.jpg" controls>
+        <source src="midias/meuvideo.webm" type="video/webm">
+        <source src="midias/meuvideo.mkv" type="video/mkv">
+        <source src="midias/meuvideo.mp4" type="video/mp4">
+        <source src="midias/meuvideo.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com vídeos.</p>
+    </video>
+    <h1>Inserindo vídeos hospedados externamente</h1>
+    <p>Este vídeo está hospedado em um servidor externo.</p>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/2iaPuUFIyMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

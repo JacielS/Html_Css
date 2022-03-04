@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/espaco.jpg);
+    width: 98vw;
+    height: 97vh;
+    background-size: cover;
+}
+img {
+    width: 300px;
+    height: 300px;
+}

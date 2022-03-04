@@ -1,0 +1,21 @@
+body{
+    font-family: verdana;
+    color: aliceblue;
+    
+    
+}
+h1, h2, p {
+    
+    background-image: url(image-fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+h2{
+    
+   
+}
+p{
+    
+    
+
+}
