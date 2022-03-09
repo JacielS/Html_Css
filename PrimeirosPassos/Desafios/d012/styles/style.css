@@ -53,14 +53,24 @@ section {
 }
 section.imagem {
     background-color: rgb(14, 13, 13);
+    text-shadow: 1px 1px 1px black;
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
-    background-color: rgb(31, 29, 29);
+    background-color: rgba(0, 0, 0, 0.329);
     width: 50vw;
     color: white;
     padding: 10px;
 
+}
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+}
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
 }
 section.normal {
     background-color: white;
